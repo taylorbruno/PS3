@@ -34,7 +34,7 @@ public class BookTests {
 	public void AddBook2() {
 		Book bk = new Book("bk999", "Taylor", "My Life", "bio", 100.00, new Date(1,1,1,1,1), "Life");
 		bk.AddBook("bk999", bk);
-		assertFalse((bk.GetBook("bk999") != null) && (bk.GetBook("bk998").equals(bk)));
+		assertFalse((bk.GetBook("bk99") != null) && (bk.GetBook("bk99").equals(bk)));
 
 	}
 }

@@ -195,7 +195,7 @@ public class Book {
 		try {
 
 			String basePath = new File("").getAbsolutePath();
-			basePath = basePath + "\\src\\main\\resources\\XMLFiles\\Books.xml";
+			basePath = basePath + "//src//main//resources//XMLFiles//Books.xml";
 			File file = new File(basePath);
 
 			JAXBContext jaxbContext = JAXBContext.newInstance(Catalog.class);
@@ -216,7 +216,7 @@ public class Book {
 		Catalog cat = null;
 
 		String basePath = new File("").getAbsolutePath();
-		basePath = basePath + "\\src\\main\\resources\\XMLFiles\\Books.xml";
+		basePath = basePath + "//src//main//resources//XMLFiles//Books.xml";
 		File file = new File(basePath);
 
 

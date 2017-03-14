@@ -1,5 +1,5 @@
 package pkgLibrary;
-
+//book exception
 public class BookException extends Exception {
 	private Book b;
 	
@@ -8,7 +8,7 @@ public class BookException extends Exception {
 	}
 	
 	public BookException(Book b){
-		super("bad");
+		super("Not good.");
 		this.b = b;
 	}
 	

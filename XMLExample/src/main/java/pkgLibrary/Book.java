@@ -228,8 +228,6 @@ public class Book {
 		} catch (JAXBException e) {
 			e.printStackTrace();
 		}
-
 		return cat;
-
 	}
 }
